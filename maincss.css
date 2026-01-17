@@ -484,6 +484,12 @@ margin-top: 40px;
 #para-one,#para-two,#para-three,#para-four,#para-five,#para-six{
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    #features-container {
+        display: grid;
+    }
+}
 #company-knowledge {
     padding: clamp(20px, 5vw, 40px);
 }
@@ -1307,4 +1313,5 @@ margin-top: 40px;
         height: 22px;
         width: 22px;
     }
+
 }
